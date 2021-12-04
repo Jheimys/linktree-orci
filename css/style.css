@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: rgb(255,0,0);
+    background: linear-gradient(4deg, rgba(255,0,0,1) 0%, rgba(140,100,100,0.8463760504201681) 0%, rgba(241,36,4,1) 0%, rgba(242,14,14,1) 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.avatar{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 0 0 20px black;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    margin-bottom:2px;
+    margin-top: 5px;
+}
+
+.spanE{
+    color: royalblue;
+}
+
+.spanS{
+    color: salmon;
+}
+
+h2{
+    font-size: 16px;
+    
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 600px;
+}
+
+.social img{
+    width: 33px;
+}
+
+.links-list{
+    list-style: none;
+}
+
+.links-list li{
+    margin: 15px 20px;
+   
+}
+
+.links-list li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.links-list li a span{
+    display: block;
+    margin-top: 10px;
+    color:burlywood ;
+    font-size: 16px;
+}
+
+p{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 35px;
+}
+
+
+
