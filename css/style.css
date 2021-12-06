@@ -11,8 +11,10 @@ html, body{
 }
 
 body{
-    background: rgb(255,0,0);
-    background: linear-gradient(4deg, rgba(255,0,0,1) 0%, rgba(140,100,100,0.8463760504201681) 0%, rgba(241,36,4,1) 0%, rgba(242,14,14,1) 100%);
+
+  background: linear-gradient(4deg, rgb(39 65 126) 0%,rgba(140,100,100,0.8463760504201681) 0%, rgb(39 36 227) 0%, rgb(242 14 214) 100%);
+   /* background: rgb(255,0,0);
+    background: linear-gradient(4deg, rgba(255,0,0,1) 0%, rgba(140,100,100,0.8463760504201681) 0%, rgba(241,36,4,1) 0%, rgba(242,14,14,1) 100%);*/
     font-family: 'Raleway', sans-serif;
 }
 
@@ -48,6 +50,12 @@ h2{
     
 }
 
+h3{
+    font-size: 14px;
+    margin-top: 2px;
+    
+}
+
 .social{
     display: flex;
     justify-content: space-around;
@@ -65,6 +73,7 @@ h2{
 
 .links-list li{
     margin: 15px 20px;
+    
    
 }
 
